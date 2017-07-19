@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="8" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[@BeforeSuite]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeTest]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeClass]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[@Test1]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[@AfterClass]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeClass]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[@TestC1]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[@TestC2]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[@AfterClass]]>
+    </line>
+    <line>
+      <![CDATA[@AfterTest]]>
+    </line>
+    <line>
+      <![CDATA[@AfterSuite]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25741" started-at="2017-07-18T13:00:41Z" finished-at="2017-07-18T13:01:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25741" started-at="2017-07-18T13:00:41Z" finished-at="2017-07-18T13:01:07Z">
+      <class name="firsttestngpackage.DemoA">
+        <test-method status="PASS" signature="m1()[pri:0, instance:firsttestngpackage.DemoA@1fcfece]" name="m1" is-config="true" duration-ms="10" started-at="2017-07-18T18:30:41Z" finished-at="2017-07-18T18:30:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="m3()[pri:0, instance:firsttestngpackage.DemoA@1fcfece]" name="m3" is-config="true" duration-ms="0" started-at="2017-07-18T18:30:41Z" finished-at="2017-07-18T18:30:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method status="PASS" signature="m5()[pri:0, instance:firsttestngpackage.DemoA@1fcfece]" name="m5" is-config="true" duration-ms="1" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m5 -->
+        <test-method status="PASS" signature="testDemoA()[pri:1, instance:firsttestngpackage.DemoA@1fcfece]" name="testDemoA" duration-ms="2" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@Test1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDemoA -->
+        <test-method status="PASS" signature="m7()[pri:0, instance:firsttestngpackage.DemoA@1fcfece]" name="m7" is-config="true" duration-ms="0" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method status="PASS" signature="m6()[pri:0, instance:firsttestngpackage.DemoA@1fcfece]" name="m6" is-config="true" duration-ms="0" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m6 -->
+        <test-method status="PASS" signature="m8()[pri:0, instance:firsttestngpackage.DemoA@1fcfece]" name="m8" is-config="true" duration-ms="0" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method status="PASS" signature="m4()[pri:0, instance:firsttestngpackage.DemoA@1fcfece]" name="m4" is-config="true" duration-ms="0" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method status="PASS" signature="m2()[pri:0, instance:firsttestngpackage.DemoA@1fcfece]" name="m2" is-config="true" duration-ms="0" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- firsttestngpackage.DemoA -->
+      <class name="firsttestngpackage.ShivTest">
+        <test-method status="FAIL" signature="testNoParameter()[pri:0, instance:firsttestngpackage.ShivTest@15eef3d]" name="testNoParameter" duration-ms="25701" started-at="2017-07-18T18:30:41Z" finished-at="2017-07-18T18:31:07Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'RLIMSI-SYS207', ip: '192.168.12.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'RLIMSI-SYS207', ip: '192.168.12.76', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:104)
+	at firsttestngpackage.ShivTest.testNoParameter(ShivTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: java.lang.NullPointerException
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:192)
+	at org.openqa.selenium.firefox.XpiDriverService.start(XpiDriverService.java:94)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:78)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoParameter -->
+      </class> <!-- firsttestngpackage.ShivTest -->
+      <class name="firsttestngpackage.DemoB">
+        <test-method status="PASS" signature="m7()[pri:0, instance:firsttestngpackage.DemoB@1ceabc1]" name="m7" is-config="true" duration-ms="1" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method status="PASS" signature="m5()[pri:0, instance:firsttestngpackage.DemoB@1ceabc1]" name="m5" is-config="true" duration-ms="0" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m5 -->
+        <test-method status="PASS" signature="testDemoB1()[pri:2, instance:firsttestngpackage.DemoB@1ceabc1]" name="testDemoB1" duration-ms="0" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@TestC1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDemoB1 -->
+        <test-method status="PASS" signature="m8()[pri:0, instance:firsttestngpackage.DemoB@1ceabc1]" name="m8" is-config="true" duration-ms="1" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method status="PASS" signature="testDemoB()[pri:3, instance:firsttestngpackage.DemoB@1ceabc1]" name="testDemoB" duration-ms="1" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@TestC2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDemoB -->
+        <test-method status="PASS" signature="m7()[pri:0, instance:firsttestngpackage.DemoB@1ceabc1]" name="m7" is-config="true" duration-ms="0" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method status="PASS" signature="m6()[pri:0, instance:firsttestngpackage.DemoB@1ceabc1]" name="m6" is-config="true" duration-ms="0" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m6 -->
+        <test-method status="PASS" signature="m8()[pri:0, instance:firsttestngpackage.DemoB@1ceabc1]" name="m8" is-config="true" duration-ms="0" started-at="2017-07-18T18:31:07Z" finished-at="2017-07-18T18:31:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+      </class> <!-- firsttestngpackage.DemoB -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
